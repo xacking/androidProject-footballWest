@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fixture"
+    android:orientation="vertical"
+    android:paddingBottom="8dp" >
+
+    <TextView
+        android:id="@+id/fixtures_detail_cell_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:textColor="#111111"
+        android:textSize="24sp" 
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/fixtures_detail_cell_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:gravity="center"
+        android:textColor="#b5b5b5"/>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:padding="5dp">
+	    
+	    <TextView
+	        android:id="@+id/fixtures_detail_cell_homename"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="2"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:singleLine="true"
+	        android:textColor="#eeeeee"
+	        android:textSize="24sp"
+	        android:textStyle="normal" />
+		    
+	    <TextView
+	        android:id="@+id/fixtures_detail_cell_homescore"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="8"
+	        android:gravity="center"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:singleLine="true"
+	        android:textColor="#eeeeee"
+	        android:textSize="24sp"
+	        android:textStyle="normal" />
+
+	</LinearLayout>
+    
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:padding="5dp">
+	    
+	    <TextView
+	        android:id="@+id/fixtures_detail_cell_awayname"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="2"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:singleLine="true"
+	        android:textColor="#eeeeee"
+	        android:textSize="24sp"
+	        android:textStyle="normal" />
+		    
+	    <TextView
+	        android:id="@+id/fixtures_detail_cell_awayscore"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="8"
+	        android:gravity="center"
+	        android:paddingLeft="10dp"
+	        android:paddingRight="10dp"
+	        android:singleLine="true"
+	        android:textColor="#eeeeee"
+	        android:textSize="24sp"
+	        android:textStyle="normal" />
+
+	</LinearLayout>
+	
+	<TextView
+        android:id="@+id/fixtures_detail_cell_venuename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:gravity="center"
+        android:textColor="#b5b5b5"/>
+	
+</LinearLayout>

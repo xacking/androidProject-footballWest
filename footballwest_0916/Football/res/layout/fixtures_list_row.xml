@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fixture"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <!--  ListRow Left sied Thumbnail image -->
+
+    <ImageView
+        android:id="@+id/fixtures_cell_image"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|fill"
+        android:layout_weight="4"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jbl" />
+
+    <TextView
+        android:id="@+id/fixtures_cell_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_weight="3"
+        android:gravity="right|center_vertical"
+        android:lines="3"
+        android:maxLines="3"
+        android:minLines="3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Rihanna"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- Rightend Arrow -->
+
+</LinearLayout>

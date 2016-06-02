@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cellfw"
+    android:orientation="vertical"
+    android:paddingBottom="8dp" 
+    android:id="@+id/venues_cell">
+
+    <TextView
+        android:id="@+id/venues_cell_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.09"
+        android:background="#aaaaaa"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="W"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/venues_cell_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="gfdsgsdgfdsa"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/venues_cell_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:text="gfdsgsdgfdsa"
+        android:textColor="#b5b5b5"
+        android:textSize="18sp" />
+
+</LinearLayout>

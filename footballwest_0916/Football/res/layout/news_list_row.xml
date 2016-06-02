@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cellfw"
+    android:orientation="horizontal">
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/news_cell_title"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:maxLines="2"
+           android:minLines="2"
+           android:paddingTop="10dp"
+           android:paddingLeft="15dp"
+           android:paddingRight="8dp"
+           android:textColor="#ffffff"
+           android:textSize="26sp"
+           android:textStyle="bold"
+           android:typeface="sans"
+           android:gravity="left|center_vertical" />
+
+       <TextView
+           android:id="@+id/news_cell_date"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+           android:paddingRight="20dp"
+           android:textColor="#cccccc" 
+           android:gravity="left|center_vertical" />
+
+       <TextView
+           android:id="@+id/news_cell_content"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:maxLines="2"
+           android:minLines="2"
+           android:paddingLeft="15dp"
+           android:paddingRight="20dp"
+           android:paddingBottom="20dp"
+           android:textColor="#cccccc" 
+           android:gravity="left|center_vertical" />
+
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:layout_weight="9"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=">"
+                android:textColor="#eeeeee"
+                android:textSize="40sp" 
+                android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+
